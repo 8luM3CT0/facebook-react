@@ -1,0 +1,35 @@
+.product {
+    margin: 10px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.product>img {
+    object-fit: fill;
+    overflow: hidden;
+    border-radius: 5px;
+    width: 248px !important;
+    height: 258px !important;
+}
+
+.product__info {
+    margin-top: -9px;
+}
+
+.product__info>h2 {
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.product__info>h4 {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.product__info>h5 {
+    font-weight: 400;
+    font-size: 10px;
+    color: gray;
+    margin-top: 3px;
+}

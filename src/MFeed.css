@@ -1,0 +1,21 @@
+.mFeed {
+    flex: 0.8;
+    padding: 40px 20px;
+    overflow-y: scroll;
+    height: 100vh;
+    padding-bottom: 0;
+}
+
+.mFeed::-webkit-scrollbar {
+    display: none;
+}
+
+.mFeed>h4 {
+    margin: 10px 20px;
+}
+
+.mFeed__row {
+    display: flex;
+    padding: 30px;
+    margin-bottom: 10px;
+}

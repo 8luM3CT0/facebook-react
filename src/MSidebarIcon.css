@@ -1,0 +1,33 @@
+.mSidebarIcon {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.mSidebarIcon:hover {
+    background-color: #f8f8f8;
+    border-radius: 10px;
+}
+
+
+/*.mSidebarIcon>.MuiSvgIcon-root {
+    padding: 20px;
+    margin-right: 7px;
+    margin-left: 15px;
+}*/
+
+.mSidebar__icon {
+    background-color: #dbdada !important;
+    border-radius: 70px !important;
+    font-size: medium !important;
+    padding: 20px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.mSidebarIcon>h2 {
+    font-weight: 500;
+    font-size: 18px;
+    margin-right: 20px;
+}

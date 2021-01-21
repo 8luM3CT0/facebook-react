@@ -1,0 +1,15 @@
+body {
+    --facebook-blue: #2e81f4;
+    --facebook-bg: #f1f2f5;
+    --facebook-plain: #eff2f5;
+    --facebook-dark-mode: #272727;
+}
+
+.app {
+    background-color: var(--facebook-bg);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.app__body {
+    display: flex;
+}
