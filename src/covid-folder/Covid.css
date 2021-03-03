@@ -14,7 +14,7 @@
 }
 
 body {
-    background-color: whitesmoke;
+    background-color: var(--facebook-dark-mode);
 }
 
 .covid__header>h1 {
@@ -55,6 +55,7 @@ body {
 .covid__stats {
     display: flex;
     justify-content: space-between;
+    background-color: rgb(71, 71, 71);
 }
 
 @media (max-width: 999px) {

@@ -1,0 +1,41 @@
+.chatRooms>a {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: darkgray;
+}
+
+.chatRooms>a:hover {
+    background-color: #949494;
+    color: lightgray;
+    border-radius: 99px;
+}
+
+.chatRooms__info {
+    margin-left: 15px;
+}
+
+.chatRooms__info>a {
+    margin-left: 15px;
+    position: relative;
+    width: 100%;
+}
+
+.chatRooms__info>a>h3 {
+    font-weight: 400;
+    margin-left: 15px;
+    font-size: 14px;
+}
+
+.chatRooms__info>a>p {
+    font-weight: 200;
+    margin-left: 15px;
+    font-size: 12px;
+}
+
+.chatRooms.selected {
+    background-color: darkgray !important;
+}

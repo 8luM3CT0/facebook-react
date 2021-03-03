@@ -1,0 +1,33 @@
+.vidPages {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+.vidPages:hover {
+    background-color: #525252;
+    width: 400px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.vidPages__left {
+    margin-right: 20px;
+}
+
+.vidPages__right:hover {
+    color: #515151 !important;
+}
+
+.vidPage__name {
+    color: lightgray;
+    font-weight: 500;
+}
+
+.vidPages__right>h5 {
+    font-weight: 500;
+    color: var(--facebook-blue) !important;
+}

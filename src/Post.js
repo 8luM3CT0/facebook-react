@@ -1,6 +1,6 @@
 import { Avatar } from '@material-ui/core'
 import { AccountCircle, ChatBubbleOutline, ExpandMoreOutlined, MoreHoriz, NearMe, ThumbUp } from '@material-ui/icons';
-import React, {forwardRef} from 'react'
+import React, {forwardRef, useState, useEffect} from 'react'
 import './Post.css'
 
 const Post = forwardRef(({profPic, image, username, timestamp, message}, ref) => {

@@ -3,9 +3,17 @@
     display: flex;
     height: 100vh;
     flex-direction: column;
-    background-color: white;
-    border-right: 1px solid lightgray;
+    background-color: var(--facebook-dark-mode);
+    border-right: 1px solid #7e7e7e;
     overflow-y: scroll;
+}
+
+.mSidebar hr {
+    border-color: #7e7e7e !important;
+}
+
+.iconButton {
+    color: lightgray !important;
 }
 
 .mSidebar::-webkit-scrollbar {
@@ -26,8 +34,8 @@
 .mSidebar__input {
     align-items: center;
     display: flex;
-    background-color: #f8f8f8;
-    color: gray;
+    background-color: #3b3b3b;
+    color: rgb(167, 167, 167);
     border-radius: 99px;
     width: 300px;
     margin-left: 20px;
@@ -35,20 +43,20 @@
 
 .mSidebar__input>input {
     border: none;
-    background: transparent;
+    background-color: #3b3b3b;
     outline-width: 0;
     height: 40px;
 }
 
 .mSidebar__listing {
-    background-color: rgb(195, 239, 255);
+    background-color: rgb(0, 73, 156);
     margin-top: 20px;
     padding: 10px 0;
     border-radius: 7px;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: var(--facebook-blue);
+    color: rgb(0, 144, 228);
     width: 300px;
     margin-left: 30px;
     cursor: pointer;

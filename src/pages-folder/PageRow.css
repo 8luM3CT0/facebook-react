@@ -1,0 +1,47 @@
+.pageRow {
+    padding: 20px;
+    cursor: pointer;
+    display: flex;
+}
+
+.pageRow:hover {
+    background-color: var(--facebook-dark-hover);
+    border-radius: 10px;
+}
+
+.pageRow__left {
+    align-items: center;
+}
+
+.pageRow__avatar {
+    height: 30px !important;
+    width: 30px !important;
+}
+
+.pageRow__right {
+    display: flex;
+    margin-left: 20px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pageRow__name {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.circle {
+    color: var(--facebook-blue) !important;
+    font-size: 11px !important;
+    margin-right: 5px;
+}
+
+.pageRow__notif {
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+}
+
+.pageRow__notif>h5 {
+    font-weight: 500;
+}

@@ -1,0 +1,57 @@
+.chatSidebar {
+    flex: 0.3;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--facebook-dark-gray);
+    border-right: 1px solid gray;
+    overflow-y: scroll;
+}
+
+.chatSidebar::-webkit-scrollbar {
+    display: none;
+}
+
+.chatSidebar__top {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    height: 50px;
+}
+
+.chatSidebar__top>h2 {
+    margin-right: auto;
+}
+
+.chatSidebar__avatar {
+    margin-right: 10px;
+}
+
+.chatSidebar__iconBtn {
+    background-color: gray !important;
+    color: lightgray !important;
+    margin-right: 5px !important;
+}
+
+.chatSidebar__input {
+    align-items: center;
+    display: flex;
+    background-color: rgb(190, 190, 190);
+    color: white;
+    border-radius: 99px;
+    width: 400px;
+    margin-left: 10px;
+}
+
+.chatSidebar__search {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white !important;
+}
+
+.chatSidebar__input>input {
+    border: none;
+    background: transparent;
+    outline-width: 0;
+    height: 40px;
+}

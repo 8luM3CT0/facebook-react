@@ -1,0 +1,108 @@
+.pageSidebar {
+    flex: 0.25;
+    border-right: 1px solid gray;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+.pageSidebar::-webkit-scrollbar {
+    display: none;
+}
+
+.pageSidebar__pages {
+    margin-top: 10px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pageSidebar__pages>h3 {
+    margin-left: 10px;
+}
+
+.settings {
+    border-radius: 99px;
+    background-color: #3d3d3d;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.pageSidebar__yourPages {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    background-color: #00456dc5;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.flag {
+    border-radius: 99px;
+    padding: 10px;
+    background-color: var(--facebook-blue);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.less {
+    margin-left: auto;
+}
+
+.pageSidebar>hr {
+    margin-top: 10px;
+    border: 1px solid gray;
+}
+
+.pageSidebar__button {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #00438f77;
+    padding: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.add {
+    font-size: 12px;
+    color: #2e81f4;
+    cursor: pointer;
+}
+
+.button {
+    background-color: transparent;
+    outline-width: none;
+    border: none;
+    cursor: pointer;
+    color: #2e81f4;
+}
+
+.pageSidebar__bottom {
+    margin-top: 10px;
+}
+
+.options {
+    display: flex;
+    align-items: center;
+    cursor: pointer !important;
+}
+
+.options:hover {
+    background-color: var(--facebook-dark-hover);
+    border-radius: 10px;
+}
+
+.options>h3 {
+    font-weight: 600;
+}
+
+.options>.MuiSvgIcon-root {
+    border-radius: 70px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 20px;
+    padding: 7px;
+    background-color: #3d3d3d !important;
+}

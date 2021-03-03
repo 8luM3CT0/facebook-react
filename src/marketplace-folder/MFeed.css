@@ -6,12 +6,17 @@
     padding-bottom: 0;
 }
 
+.mFeed hr {
+    border-color: #7e7e7e !important;
+}
+
 .mFeed::-webkit-scrollbar {
     display: none;
 }
 
 .mFeed>h4 {
     margin: 10px 20px;
+    font-size: 20px;
 }
 
 .mFeed__row {

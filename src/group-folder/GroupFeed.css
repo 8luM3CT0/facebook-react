@@ -1,0 +1,81 @@
+.groupFeed {
+    display: flex;
+    flex-direction: column;
+    flex: 0.75;
+    overflow-y: scroll;
+}
+
+.groupFeed::-webkit-scrollbar {
+    display: none;
+}
+
+.groupFeed__news {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    height: 20px;
+}
+
+.newsFeed {
+    background-color: var(--facebook-dark-gray);
+    overflow: scroll;
+    display: flex;
+    height: 100px;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.newsFeed__content {
+    display: flex;
+    margin-right: 30px;
+}
+
+.newsFeed__contentLeft {
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.newsFeed__contentRight {
+    margin-right: 20px;
+}
+
+.newsFeed::-webkit-scrollbar {
+    display: none;
+}
+
+.contentRight__poster {
+    font-weight: 500;
+    font-size: small;
+    color: lightgray;
+}
+
+.bold {
+    font-weight: bolder !important;
+    font-size: 15px;
+    color: white;
+}
+
+.contentRight__status {
+    font-size: small !important;
+    color: var(--facebook-blue) !important;
+    align-items: center !important;
+    display: flex !important;
+}
+
+.icon {
+    background-color: transparent !important;
+    margin-right: 0;
+    margin-left: -10px;
+    font-size: small !important;
+    color: var(--facebook-blue) !important;
+}
+
+.groupFeed_content {
+    flex: 1;
+    padding: 30px 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}

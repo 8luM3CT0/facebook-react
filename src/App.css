@@ -3,10 +3,13 @@ body {
     --facebook-bg: #f1f2f5;
     --facebook-plain: #eff2f5;
     --facebook-dark-mode: #272727;
+    --facebook-dark-hover: #474747;
+    --facebook-dark-gray: #323232;
 }
 
 .app {
-    background-color: var(--facebook-bg);
+    background-color: var(--facebook-dark-mode);
+    color: white !important;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 

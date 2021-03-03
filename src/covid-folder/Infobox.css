@@ -1,6 +1,7 @@
 .infoBox {
     flex: 1;
     cursor: pointer;
+    background-color: rgb(141, 141, 141);
 }
 
 .infoBox:not(:last-child) {

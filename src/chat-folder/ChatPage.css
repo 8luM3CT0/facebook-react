@@ -1,0 +1,125 @@
+.chatPage {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    height: 100vh;
+    background-color: var(--facebook-dark-hover);
+}
+
+.chatPage__header {
+    display: flex;
+    border-bottom: 1px solid gray;
+    background-color: var(--facebook-dark-gray);
+}
+
+.chatPage__iconBtn1st {
+    display: flex;
+}
+
+.iconBtn1st {
+    margin-left: auto !important;
+    color: white !important;
+}
+
+.chatPage__messages {
+    flex: 1;
+    overflow: scroll;
+    background-color: var(--facebook-dark-hover);
+    padding: 30px;
+}
+
+.chatPage__messages::-webkit-scrollbar {
+    display: none;
+}
+
+.chatPage__messageSpan {
+    display: flex;
+    position: relative;
+    font-size: 16px;
+    width: fit-content;
+    margin-bottom: 30px;
+}
+
+.chatPage__sender {
+    order: 0 !important;
+    font-weight: 700;
+}
+
+.chatPage__messageReceiver {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto !important;
+    padding: 10px;
+    border-radius: 99px !important;
+    background-color: rgb(36, 36, 36) !important;
+    color: white !important;
+}
+
+.chatPage__messageSpan {
+    display: flex;
+    flex-direction: column;
+    border-radius: 99px;
+    background-color: gray;
+    padding: 20px;
+}
+
+.chatPage__input {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border-top: 1px solid gray;
+    background-color: gray;
+    overflow: scroll;
+    cursor: pointer;
+}
+
+.chatPage__input::-webkit-scrollbar {
+    display: none;
+}
+
+.chatPage__input>form {
+    flex: 1;
+}
+
+.chatPage__input>form>input {
+    width: 100%;
+    outline-width: 0;
+    border: 1px solid darkgray;
+    background-color: transparent !important;
+    color: rgb(221, 221, 221);
+    border-radius: 99px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.chatPage__input>form>button {
+    display: none;
+}
+
+.note,
+.gif,
+.addCircle {
+    font-size: 30px !important;
+    margin-right: 10px !important;
+    cursor: pointer;
+}
+
+.photo {
+    font-size: 30px !important;
+    cursor: pointer;
+}
+
+.emoji {
+    font-size: 30px !important;
+    cursor: pointer;
+}
+
+.iconBtnEnd {
+    justify-content: end !important;
+}
+
+.thumb {
+    color: white !important;
+}

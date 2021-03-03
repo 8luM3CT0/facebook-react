@@ -1,0 +1,7 @@
+.pageList {
+    flex: 0.75;
+}
+
+.pageList>h3 {
+    padding: 20px;
+}

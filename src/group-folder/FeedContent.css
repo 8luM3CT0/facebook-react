@@ -1,49 +1,51 @@
-.post {
-    width: 100%;
-    margin-top: 15px;
+.feedContent {
+    width: 700px;
+    margin-left: 300px;
+    margin-top: 170px;
+    margin-bottom: 30px;
     border-radius: 15px;
-    background-color: rgb(63, 63, 63);
+    background-color: var(--facebook-dark-gray);
     box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
     color: white !important;
 }
 
-.post__top {
+.feedContent__top {
     display: flex;
     position: relative;
     align-items: center;
     padding: 15px;
 }
 
-.post__dots {
+.feedContent__dots {
     position: absolute;
     top: 0;
     right: 10px;
 }
 
-.post__avatar {
+.feedContent__avatar {
     margin-right: 10px;
 }
 
-.post__topInfo>h3 {
+.feedContent__topInfo>h3 {
     font-size: medium;
 }
 
-.post__topInfo>p {
+.feedContent__topInfo>p {
     font-size: small;
     color: white !important;
 }
 
-.post__bottom {
+.feedContent__bottom {
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 15px 25px;
 }
 
-.post__image>img {
+.feedContent__image>img {
     width: 100%;
 }
 
-.post__options {
+.feedContent__options {
     padding-top: 10px;
     border-top: 1px solid lightgray;
     display: flex;
@@ -54,19 +56,20 @@
     padding: 15px;
 }
 
-.post__option {
+.feedContent__option {
     display: flex;
+    color: lightgray !important;
     align-items: center;
     justify-content: center;
     padding: 5px;
     flex: 1;
 }
 
-.post__option:hover {
-    background-color: #575757;
+.feedContent__option:hover {
+    background-color: #626262;
     border-radius: 10px;
 }
 
-.post__option>p {
+.feedContent__option>p {
     margin-left: 10px;
 }

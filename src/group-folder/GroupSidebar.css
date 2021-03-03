@@ -1,0 +1,113 @@
+.groupSidebar {
+    height: 100vh;
+    background-color: var(--facebook-dark-gray);
+    border-radius: 5px;
+    flex: 0.25;
+    overflow-y: scroll;
+}
+
+.groupSidebar::-webkit-scrollbar {
+    display: none;
+}
+
+.groupSidebar__top {
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.sidebar__header {
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.settings {
+    border-radius: 70px;
+    color: white;
+    background-color: rgb(112, 112, 112) !important;
+}
+
+.sidebar__search {
+    margin-top: 10px;
+    height: 40px;
+    width: 400px !important;
+    display: flex;
+    margin-left: 10px;
+    border-radius: 99px;
+    align-items: center;
+    background-color: rgb(112, 112, 112);
+}
+
+.searchIcon {
+    margin-left: 5px;
+    color: darkgray;
+}
+
+.sidebar__search>input {
+    background-color: #707070;
+    color: darkgray;
+    outline-width: 0;
+    border: none;
+}
+
+.sidebar__search>input::placeholder {
+    color: white;
+}
+
+.sidebarOption {
+    display: flex;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    align-items: center !important;
+}
+
+.sidebarOption:hover {
+    background-color: #8a8a8a;
+    border-radius: 20px;
+    width: 400px;
+}
+
+.iconSidebar {
+    padding: 7px;
+    border-radius: 70px;
+    margin-right: 10px;
+    background-color: rgb(112, 112, 112) !important;
+    color: white;
+}
+
+.groupSidebar__create {
+    display: flex;
+    background-color: rgb(0, 73, 156);
+    padding: 10px 0;
+    border-radius: 7px;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 144, 228);
+    width: 400px;
+    margin-left: 20px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.groupSidebar__mid {
+    margin-top: 10px;
+    border-bottom: 1px solid gray;
+}
+
+.groupSidebar__mid>h3 {
+    margin-left: 10px;
+}
+
+.groupSidebar__midGroups {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.groupSidebar__bottom>h3 {
+    margin-top: 10px;
+    margin-left: 10px;
+}

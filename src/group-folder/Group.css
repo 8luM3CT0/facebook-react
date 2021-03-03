@@ -1,0 +1,37 @@
+.group {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.group:hover {
+    background-color: #929292;
+    width: 400px;
+    border-radius: 20px;
+}
+
+.group__left {
+    margin-right: 20px;
+}
+
+.image {
+    border-radius: 20px;
+    height: 60px;
+    width: 60px;
+}
+
+.group__right:hover {
+    color: #515151 !important;
+}
+
+.name {
+    color: lightgray;
+    font-weight: 500;
+}
+
+.group__right>h5 {
+    font-weight: 500;
+    color: var(--facebook-blue) !important;
+}

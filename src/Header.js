@@ -37,7 +37,7 @@ function Header() {
                         </Link>
                     </div>
                  <div className="header__option">
-                    <Flag fontSize="large" />
+                        <Flag fontSize="large" />
                 </div>
                 <div className="header__option">
                     <SubscriptionsOutlined fontSize="large" />

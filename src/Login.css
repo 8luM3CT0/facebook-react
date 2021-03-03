@@ -2,7 +2,7 @@
     display: grid;
     place-items: center;
     height: 100vh;
-    background-color: white;
+    background-color: var(--facebook-dark-mode);
 }
 
 .login>div>img {

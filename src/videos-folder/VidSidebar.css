@@ -1,0 +1,96 @@
+.vidSidebar {
+    flex: 0.25;
+    background-color: var(--facebook-dark-gray);
+    height: 100vh;
+    border-radius: 10px;
+    overflow-y: scroll;
+}
+
+.vidSidebar::-webkit-scrollbar {
+    display: none;
+}
+
+.vidSidebar__top {
+    border-bottom: 1px solid darkgray;
+}
+
+.vidSidebar__header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    align-items: center;
+}
+
+.vidSidebar__input {
+    display: flex;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width: 400px;
+    border-radius: 99px;
+    background-color: #525252;
+}
+
+.vidSidebar__inputBar {
+    outline-width: 0;
+    background-color: transparent;
+    border: 0;
+    color: white;
+}
+
+.vidSidebar__mid {
+    border-bottom: 1px solid darkgray;
+    margin-top: 10px;
+}
+
+.vid__settings {
+    background-color: #525252;
+    border-radius: 70px;
+    padding: 6px;
+    margin-right: 10px;
+}
+
+.vidSidebar__options {
+    display: flex;
+    padding: 10px;
+    margin-left: 10px;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.vidSidebar__options:hover {
+    background-color: #525252;
+    width: 400px;
+    border-radius: 10px;
+}
+
+.vidSidebar__options h3 {
+    font-weight: 500;
+}
+
+.vid__icon {
+    margin-right: 10px;
+    border-radius: 70px;
+    background-color: #525252;
+    padding: 7px;
+}
+
+.vidSidebar__bottomHeader {
+    display: flex;
+    justify-content: space-between;
+}
+
+.vidSidebar__bottomHeader>h3 {
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.vidSidebar__bottomHeader>h4 {
+    font-weight: 500;
+    color: var(--facebook-blue);
+    margin-right: 7px;
+}
